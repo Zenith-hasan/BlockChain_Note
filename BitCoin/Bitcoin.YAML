@@ -1,0 +1,38 @@
+// There are two type of addess in the bitcoin - P2PKH & P2SH
+
+-> The P2PKH start with one and look something like this : 1ANAguGG8bikEv2fYsTBnRUmx7QUcK58w
+
+-> The P2SH start with 3 and look something like this : 3ANAguGG8bikEv2fYsTBnRUmx7QUcK58w
+
+
+
+-------------------------------------------------------------
+
+The Bitcoin Network - The bitcoin operates as a peer to peer(P2P) system where nodes engage in transactions acitivities.
+These nodes are responsible for verifying and disseminating transactions and blocks. 
+
+
+The bitcoin network is distinguished by it's uniques magic value, which serves to signify the originating network of a message. 
+
+
+A full Bitcoin node performs four functions. These are wallet, miner, blockchina and network routing. 
+
+
+Protocol Message in Bitcoin Network : 
+
+     -> Version
+     -> Verack 
+     -> Inv
+     -> Getdata 
+     -> Getblocks
+     -> Getheaders 
+     -> Tx
+     -> Block 
+     -> Headers 
+     -> Getaddr
+     -> Addr
+     -> Ping
+     -> Pong
+
+* The bitcoin network nodes can function in two primary modes : as full clients or as lightweight SPV clients. 
+
